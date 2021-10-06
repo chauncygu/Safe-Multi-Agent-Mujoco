@@ -7,8 +7,8 @@ We introduce **Safe Multi-Agent MuJoCo (Safe MAMujoco)**, a safety-aware modific
 In particular, the background environment, agents, physics simulator, and the reward function are preserved. However, as oppose to its predecessor, Safe MAMuJoCo environments come with obstacles, like walls or bombs. Furthermore, with the increasing risk of an agent stumbling upon an obstacle, the environment emits cost.
 
 <div align=center>
- <img src="https://github.com/anybodyany/Safety-Multi-Agent-Mujoco/blob/main/figures/Ant2x4_new_green_yellow.jpg" width="165"/> <img src="https://github.com/anybodyany/Safety-Multi-Agent-Mujoco/blob/main/figures/Ant4x2_color.jpg" width="222"/> <img src="https://github.com/anybodyany/Safety-Multi-Agent-Mujoco/blob/main/figures/couple_halfcheetah_p1p_color.jpg" width="213"/>
-    <img src="https://github.com/anybodyany/Safety-Multi-Agent-Mujoco/blob/main/figures/half_cheetah2x3_color.jpg" width="179"/>  
+ <img src="https://github.com/chauncygu/Safe-Multi-Agent-Mujoco/blob/main/figures/Ant2x4_new_green_yellow.jpg" width="165"/> <img src="https://github.com/chauncygu/Safe-Multi-Agent-Mujoco/blob/main/figures/New_Ant4x2.jpg" width="175"/> <img src="https://github.com/chauncygu/Safe-Multi-Agent-Mujoco/blob/main/figures/couple_halfcheetah_p1p_color.jpg" width="213"/>
+    <img src="https://github.com/chauncygu/Safe-Multi-Agent-Mujoco/blob/main/figures/New_HalfCheetah2x3.jpg" width="202"/>  
 </div>
 <div align=center>
 <center style="color:#000000;text-decoration:underline">Figure.1 Example views of robots in Safe MAMuJoCo. Body parts of different colours are controlled by differentagents. Agents jointly learn to manipulate the robot, while avoiding crashing into unsafe areas. </center>
