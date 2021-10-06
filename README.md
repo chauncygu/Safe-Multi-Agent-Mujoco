@@ -17,8 +17,6 @@ In particular, the background environment, agents, physics simulator, and the re
 
 
 ## Installation
-
-
 &nbsp;
 
 - Install mujoco accoring to [mujoco-py](https://github.com/openai/mujoco-py) and [MuJoCo website](https://www.roboti.us/license.html).
