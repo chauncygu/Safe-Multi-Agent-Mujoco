@@ -15,7 +15,7 @@ In particular, the background environment, agents, physics simulator, and the re
     <img src="https://github.com/anybodyany/Safety-Multi-Agent-Mujoco/blob/main/figures/half_cheetah2x3_color.jpg" width="179"/>  
 </div>
 <div align=center>
-<center style="color:#000000;text-decoration:underline">Figure.1 Example views of robots in Safe MAMuJoCo. Body parts of different colours are controlled independently by different agents. They learn to make the robots walk, while avoiding the dangerous red walls or a bomb.</center>
+<center style="color:#000000;text-decoration:underline">Figure.1 Example views of robots in Safe MAMuJoCo. Body parts of different colours are controlled independently by different agents. They learn to make the robots walk, while avoiding unsafe areas.</center>
  </div>
 
 &nbsp;
