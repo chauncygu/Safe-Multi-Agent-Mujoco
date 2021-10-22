@@ -27,6 +27,16 @@ LD_LIBRARY_PATH=${HOME}/.mujoco/mujoco200/bin;
 LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so
 ```
 
+## Publication
+If you find the repository useful, please cite the [paper](https://arxiv.org/abs/2110.02793):
+```
+@article{gu2021multi,
+  title={Multi-Agent Constrained Policy Optimisation},
+  author={Gu, Shangding and Kuba, Jakub Grudzien and Wen, Munning and Chen, Ruiqing and Wang, Ziyan and Tian, Zheng and Wang, Jun and Knoll, Alois and Yang, Yaodong},
+  journal={arXiv preprint arXiv:2110.02793},
+  year={2021}
+}
+```
 
 # Acknowledgments
 
