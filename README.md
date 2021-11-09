@@ -40,7 +40,7 @@ If you find the repository useful, please cite the [paper](https://arxiv.org/abs
 
 # Acknowledgments
 
-Some sections of the repository is based on [MAMujoco](https://github.com/schroederdewitt/multiagent_mujoco), [safety-gym](https://github.com/openai/safety-gym), [CMBPO](https://github.com/anyboby/Constrained-Model-Based-Policy-Optimization).
+Some sections of the repository are based on [MAMujoco](https://github.com/schroederdewitt/multiagent_mujoco), [safety-gym](https://github.com/openai/safety-gym), [CMBPO](https://github.com/anyboby/Constrained-Model-Based-Policy-Optimization).
 
 
 
