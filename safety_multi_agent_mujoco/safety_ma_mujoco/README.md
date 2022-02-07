@@ -1,7 +1,7 @@
 #### Safety Multi-agent Mujoco 
 
 
-## 1. Sate Many Agent Ant
+## 1. Safe Many Agent Ant
 
 According to Zanger's work, 
 
