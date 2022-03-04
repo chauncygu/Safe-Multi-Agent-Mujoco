@@ -1,11 +1,12 @@
 # Safe Multi-Agent Mujoco
 
-We introduce **Safe Multi-Agent MuJoCo (Safe MAMujoco)**, a safety-aware modification of [MAMuJoCo](https://github.com/schroederdewitt/multiagent_mujoco).  Safe MAMuJoCo agents learn to not only skilfully manipulate a robot, but also to avoid dangerous obstacles and positions, Figure 1 shows example views of the environment. (This repository is under actively development. We appreciate any constructive comments and suggestions)
+We introduce a safe Multi-Agent Reinforcement Learning Benchmark, **Safe Multi-Agent MuJoCo (Safe MAMujoco)**, a safety-aware modification of [MAMuJoCo](https://github.com/schroederdewitt/multiagent_mujoco).  Safe MAMuJoCo agents learn to not only skilfully manipulate a robot, but also to avoid dangerous obstacles and positions, Figure 1 shows example views of the environment. (This repository is under actively development. We appreciate any constructive comments and suggestions)
 
 
 
 In particular, the background environment, agents, physics simulator, and the reward function are preserved. However, as oppose to its predecessor, Safe MAMuJoCo environments come with obstacles, like walls or bombs. Furthermore, with the increasing risk of an agent stumbling upon an obstacle, the environment emits cost.
 
+<!--
 <div align=center>
  <img src="https://github.com/chauncygu/Safe-Multi-Agent-Mujoco/blob/main/figures/Ant2x4_new_green_yellow.jpg" width="165"/> <img src="https://github.com/chauncygu/Safe-Multi-Agent-Mujoco/blob/main/figures/New_Ant4x2.jpg" width="175"/> <img src="https://github.com/chauncygu/Safe-Multi-Agent-Mujoco/blob/main/figures/couple_halfcheetah_p1p_color.jpg" width="213"/>
     <img src="https://github.com/chauncygu/Safe-Multi-Agent-Mujoco/blob/main/figures/New_HalfCheetah2x3.jpg" width="202"/>  
@@ -13,6 +14,17 @@ In particular, the background environment, agents, physics simulator, and the re
 <div align=center>
 <center style="color:#000000;text-decoration:underline">Figure.1 Example views of robots in Safe MAMuJoCo. Body parts of different colours are controlled by differentagents. Agents jointly learn to manipulate the robot, while avoiding crashing into unsafe areas. </center>
  </div>
+-->
+ 
+ 
+ <div align=center>
+ <img src="https://github.com/chauncygu/Safe-Multi-Agent-Mujoco/blob/main/figures/all-mujoco.png" width="850"/> 
+ </div>
+<div align=center>
+<center style="color:#000000;text-decoration:underline">Figure.1 Example views of robots in Safe MAMuJoCo. Body parts of different colours are controlled by differentagents. Agents jointly learn to manipulate the robot, while avoiding crashing into unsafe areas. </center>
+ </div>
+ 
+
 
 
 
