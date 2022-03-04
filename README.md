@@ -29,7 +29,6 @@ LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so
 
 ## Tasks
 ``` Bash
-   
     ManyAgent Ant
     env_args = {"scenario": "manyagent_ant",
                   "agent_conf": "3x2",
