@@ -40,6 +40,7 @@ LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so
                   "agent_conf": "2x3",
                   "agent_obsk": 1,
                   "episode_limit": 1000}
+                  
     env_args = {"scenario": "manyagent_ant",
                   "agent_conf": "6x1",
                   "agent_obsk": 1,
