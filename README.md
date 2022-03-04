@@ -65,13 +65,7 @@ LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so
                 "agent_conf": "6x1",
                 "agent_obsk": 1,
                 "episode_limit": 1000}
-
-    Hopper
-    env_args = {"scenario": "Hopper-v2",
-                "agent_conf": "3x1",
-                "agent_obsk": 1,
-                "episode_limit": 1000}
-                
+                  
     Ant 
     env_args = {"scenario": "Ant-v2",
                 "agent_conf": "2x4",
@@ -96,6 +90,11 @@ LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so
     coupled_half_cheetah
     env_args = {"scenario": "coupled_half_cheetah",
                 "agent_conf": "1p1",
+                "agent_obsk": 1,
+                "episode_limit": 1000}
+    Hopper
+    env_args = {"scenario": "Hopper-v2",
+                "agent_conf": "3x1",
                 "agent_obsk": 1,
                 "episode_limit": 1000}
 ```
