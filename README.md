@@ -87,7 +87,7 @@ LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so
                 "agent_obsk": 1,
                 "episode_limit": 1000}
                 
-    coupled_half_cheetah
+   Coupled_half_cheetah
     env_args = {"scenario": "coupled_half_cheetah",
                 "agent_conf": "1p1",
                 "agent_obsk": 1,
