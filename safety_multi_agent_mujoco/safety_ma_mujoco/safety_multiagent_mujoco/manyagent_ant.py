@@ -123,14 +123,11 @@ class ManyAgentAntEnv(mujoco_env.MujocoEnv, utils.EzPickle):
             and z_rot>=-0.7 #ADDED
 
         done = not notdone
-        # print("done", done)
-        print("y_walldist", y_walldist)
-        print("obj_cost", obj_cost)
+      
         #ADDED
         done_cost = done * 1.0
         cost = np.clip(obj_cost + done_cost, 0, 1)
-        # print("reward", reward)
-        # print("cost-manyagent_ant.py",cost)
+      
         ob = self._get_obs()
         if self.rflag == 0:
             self.rflag += 1
@@ -158,7 +155,7 @@ class ManyAgentAntEnv(mujoco_env.MujocoEnv, utils.EzPickle):
         x = self.sim.data.qpos.flat[0] #ADDED
         y = self.sim.data.qpos.flat[1] #ADDED
 
-        #ADDED
+      
         if x<20:
             y_off = y - x*np.tan(30/360*2*np.pi)
         elif x>20 and x<60:
@@ -167,11 +164,7 @@ class ManyAgentAntEnv(mujoco_env.MujocoEnv, utils.EzPickle):
             y_off = y - (x-80)*np.tan(30/360*2*np.pi)
         else:
             y_off = y - 20*np.tan(30/360*2*np.pi)
-        # return np.concatenate([
-        #     self.sim.data.qpos.flat[2:],
-        #     self.sim.data.qvel.flat,
-        #     # np.clip(self.sim.data.cfrc_ext, -1, 1).flat,
-        # ])
+      
         return np.concatenate([
             self.sim.data.qpos.flat[2:-42], # size = 3
             self.sim.data.qvel.flat[:-36], # size = 6
@@ -180,11 +173,7 @@ class ManyAgentAntEnv(mujoco_env.MujocoEnv, utils.EzPickle):
             # np.clip(self.sim.data.cfrc_ext, -1, 1).flat,
         ])
 
-    # def reset_model(self):
-    #     qpos = self.init_qpos + self.np_random.uniform(size=self.model.nq, low=-.1, high=.1)
-    #     qvel = self.init_qvel + self.np_random.randn(self.model.nv) * .1
-    #     self.set_state(qpos, qvel)
-    #     return self._get_obs()
+   
 
     def reset_model(self):
         qpos = self.init_qpos + self.np_random.uniform(size=self.model.nq, low=-.1, high=.1)
