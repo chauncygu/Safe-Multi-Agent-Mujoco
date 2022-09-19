@@ -37,6 +37,7 @@ In particular, the background environment, agents, physics simulator, and the re
 ``` Bash
 LD_LIBRARY_PATH=${HOME}/.mujoco/mujoco200/bin;
 LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so
+pip install -r requirements.txt
 ```
 
 ## Test
