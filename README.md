@@ -39,6 +39,13 @@ LD_LIBRARY_PATH=${HOME}/.mujoco/mujoco200/bin;
 LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so
 ```
 
+## Test
+Run test.py
+
+``` Bash
+python test.py
+```
+
 ## Tasks
 ``` Bash
     ManyAgent Ant
