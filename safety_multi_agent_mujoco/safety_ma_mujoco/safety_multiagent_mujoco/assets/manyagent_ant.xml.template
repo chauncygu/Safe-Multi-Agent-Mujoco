@@ -57,6 +57,23 @@
       <freejoint name="b2_fj"/>
       <geom conaffinity="1" condim="3" name="wall2" type="box" density=".000001" size="20 0.01 .7"    rgba="1 0.5 0.5 1"/>
     </body>
+
+    <!--<body name='b1' pos="0 6 1" euler='0 0 30'>
+      <freejoint name="b1_fj"/>
+      <geom conaffinity="1" condim="3" name="wall1" type="box" density=".000001" size="20 0.01 .7"    rgba="1 0.5 0.5 1"/>
+    </body>
+    <body name='b2' pos="0 -6 1" euler='0 0 30'>
+      <freejoint name="b2_fj"/>
+      <geom conaffinity="1" condim="3" name="wall2" type="box" density=".000001" size="20 0.01 .7"    rgba="1 0.5 0.5 1"/>
+    </body>
+    <body name='b3' pos="40 6 1" euler='0 0 -30'>
+      <freejoint name="b3_fj"/>
+      <geom conaffinity="1" condim="3" name="wall3" type="box" density=".000001" size="20 0.01 .7"    rgba="1 0.5 0.5 1"/>
+    </body>
+    <body name='b4' pos="40 -6 1" euler='0 0 -30'>
+      <freejoint name="b4_fj"/>
+      <geom conaffinity="1" condim="3" name="wall4" type="box" density=".000001" size="20 0.01 .7"    rgba="1 0.5 0.5 1"/>
+    </body>-->
   </worldbody>
   <actuator>
     {{ actuators }}
