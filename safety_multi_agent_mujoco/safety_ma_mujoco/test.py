@@ -104,11 +104,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    """
-    infos[cost]: [{'cost': 0.0, 'reward_forward': -0.6434413402233052, 'reward_ctrl': -4.010836585120964,
-                   'reward_contact': -1.2071856383999997e-13, 'reward_survive': 1.0, 'cost_obj': 0.0, 'cost_done': 0.0},
-                  {'cost': 0.0, 'reward_forward': -0.6434413402233052, 'reward_ctrl': -4.010836585120964,
-                   'reward_contact': -1.2071856383999997e-13, 'reward_survive': 1.0, 'cost_obj': 0.0, 'cost_done': 0.0},
-                  {'cost': 0.0, 'reward_forward': -0.6434413402233052, 'reward_ctrl': -4.010836585120964,
-                   'reward_contact': -1.2071856383999997e-13, 'reward_survive': 1.0, 'cost_obj': 0.0, 'cost_done': 0.0}]
-    """
+    
