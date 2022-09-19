@@ -114,6 +114,59 @@
       <freejoint name="b6_fj"/>
       <geom conaffinity="1" condim="3" name="wall6" type="box" density=".000001" size="20 0.01 .7"    rgba="1 0.5 0.5 1"/>
     </body>
+
+    <!--<body name='b1' pos="0 5 1" euler='0 0 40'>
+      <freejoint name="b1_fj"/>
+      <geom conaffinity="1" condim="3" name="wall1" type="box" density=".000001" size="20 0.01 .7"    rgba="1 0.5 0.5 1"/>
+    </body>
+    <body name='b2' pos="0 -5 1" euler='0 0 40'>
+      <freejoint name="b2_fj"/>
+      <geom conaffinity="1" condim="3" name="wall2" type="box" density=".000001" size="20 0.01 .7"    rgba="1 0.5 0.5 1"/>
+    </body>
+    <body name='b3' pos="40 5 1" euler='0 0 -40'>
+      <freejoint name="b3_fj"/>
+      <geom conaffinity="1" condim="3" name="wall3" type="box" density=".000001" size="20 0.01 .7"    rgba="1 0.5 0.5 1"/>
+    </body>
+    <body name='b4' pos="40 -5 1" euler='0 0 -40'>
+      <freejoint name="b4_fj"/>
+      <geom conaffinity="1" condim="3" name="wall4" type="box" density=".000001" size="20 0.01 .7"    rgba="1 0.5 0.5 1"/>
+    </body>
+    <body name='b5' pos="80 5 1" euler='0 0 40'>
+      <freejoint name="b5_fj"/>
+      <geom conaffinity="1" condim="3" name="wall5" type="box" density=".000001" size="20 0.01 .7"    rgba="1 0.5 0.5 1"/>
+    </body>
+    <body name='b6' pos="80 -5 1" euler='0 0 40'>
+      <freejoint name="b6_fj"/>
+      <geom conaffinity="1" condim="3" name="wall6" type="box" density=".000001" size="20 0.01 .7"    rgba="1 0.5 0.5 1"/>
+    </body>-->
+
+
+    <!--<body name='b1' pos="0 4 1" euler='0 0 40'>
+      <freejoint name="b1_fj"/>
+      <geom conaffinity="1" condim="3" name="wall1" type="box" density=".000001" size="20 0.01 .7"    rgba="1 0.5 0.5 1"/>
+    </body>
+    <body name='b2' pos="0 -4 1" euler='0 0 40'>
+      <freejoint name="b2_fj"/>
+      <geom conaffinity="1" condim="3" name="wall2" type="box" density=".000001" size="20 0.01 .7"    rgba="1 0.5 0.5 1"/>
+    </body>
+    <body name='b3' pos="40 4 1" euler='0 0 -40'>
+      <freejoint name="b3_fj"/>
+      <geom conaffinity="1" condim="3" name="wall3" type="box" density=".000001" size="20 0.01 .7"    rgba="1 0.5 0.5 1"/>
+    </body>
+    <body name='b4' pos="40 -4 1" euler='0 0 -40'>
+      <freejoint name="b4_fj"/>
+      <geom conaffinity="1" condim="3" name="wall4" type="box" density=".000001" size="20 0.01 .7"    rgba="1 0.5 0.5 1"/>
+    </body>
+    <body name='b5' pos="80 4 1" euler='0 0 40'>
+      <freejoint name="b5_fj"/>
+      <geom conaffinity="1" condim="3" name="wall5" type="box" density=".000001" size="20 0.01 .7"    rgba="1 0.5 0.5 1"/>
+    </body>
+    <body name='b6' pos="80 -4 1" euler='0 0 40'>
+      <freejoint name="b6_fj"/>
+      <geom conaffinity="1" condim="3" name="wall6" type="box" density=".000001" size="20 0.01 .7"    rgba="1 0.5 0.5 1"/>
+    </body>-->
+
+
   </worldbody>
   <actuator>
     <motor ctrllimited="true" ctrlrange="-1.0 1.0" joint="hip_4" gear="150"/>
