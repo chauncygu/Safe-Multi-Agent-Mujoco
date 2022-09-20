@@ -68,7 +68,18 @@ python test.py
     env_args = {"scenario": "manyagent_ant",
                 "agent_conf": "4x2",
                 "agent_obsk": 1,
-                "episode_limit": 1000}  
+                "episode_limit": 1000}
+                
+    env_args = {"scenario": "manyagent_ant",
+                "agent_conf": "2x4",
+                "agent_obsk": 1,
+                "episode_limit": 1000}
+                
+                
+    env_args = {"scenario": "manyagent_ant",
+                "agent_conf": "8x1",
+                "agent_obsk": 1,
+                "episode_limit": 1000}
                 
     HalfCheetah
     env_args = {"scenario": "HalfCheetah-v2",
